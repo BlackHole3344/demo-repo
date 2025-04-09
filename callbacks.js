@@ -17,9 +17,7 @@ app.get("/room1" , (req , res) => {
 })
 
 
-
-
-
+app.listen(port , () => {console.log("hello world")})
 
 
 

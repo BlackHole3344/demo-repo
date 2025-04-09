@@ -2,19 +2,19 @@
 
 
 
-const express = require("express")
+// const express = require("express")
 
 
-const app = express() 
+// const app = express() 
 
 
-const port = 3000 
-app.get("/room1" , (req , res) => {
-  const {name} = req.body ; 
+// const port = 3000 
+// app.get("/room1" , (req , res) => {
+//   const {name} = req.body ; 
 
-  console.log(name) 
-  res.status(200).json({success : true , message : `hello ${name} from `})
-})
+//   console.log(name) 
+//   res.status(200).json({success : true , message : `hello ${name} from `})
+// })
 
 
 app.listen(port , () => {console.log("hello world")})
